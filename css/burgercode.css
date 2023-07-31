@@ -1,0 +1,87 @@
+body
+{
+	background: url(../images/bg.png);
+}
+.site
+	{
+		font-family: fantasy;
+
+	}
+ .text-logo /*titre h1 burger code*/
+ 	{
+ 		font-family: ui-rounded;
+ 		color: #e7480f;
+ 		text-shadow: 2px 2px #ffd301;
+ 		font-size: 45px;
+ 		text-align: center;
+ 		padding: 40px 0;
+ 	}
+ #iconeTitle /*icone fourchette*/
+ 	{
+ 		color: #ffd301;
+ 		text-shadow: 0 0 #ffd301;
+ 	}
+
+ /* Propriétes pour chaque case du produit */
+.thumbnail img
+	{
+		background:#ffd301;
+	}
+.title
+	{
+		font-family: ui-rounded;
+ 		color: #e7480f;
+ 		padding: 20px 0;
+ 		font-weight: bold;
+ 		text-shadow: 0.5px 0.5px #ffd301;
+	}
+.price
+	{
+		background: #5cb85c;
+		box-shadow: 0 1 rgba(0, 0, 0, 0.2);
+		color: white;
+		text-shadow: 2px 2px #333;
+		position: absolute;
+		right: 6px;
+		top: 10px;
+		font-size: 20px;
+		padding: 2px;
+		border-radius: 3px;
+	}
+.caption >h4
+	{
+		color: #e7480f;
+		font-size: 18px;
+	}
+.btn-order
+	{
+		width: 100%;
+		padding: 10px;
+		font-size: 16px;
+		color: whitesmoke;
+		background-color: #e7480f;
+		text-shadow: #333;
+	}
+.btn-order:hover, .btn-order:focus
+	{
+		color: white;
+		background-color: #c13c0d;
+		
+	}
+
+
+	/* la barre des menu */
+.nav>li>a
+	{
+		color: #e7480f;
+		font-size: 18px;
+		text-shadow: 2px 2px #333 ;
+	}
+
+/*PAGE ADMIN*/
+#admin
+{
+	background: white;
+	border-radius: 10px;
+	padding: 30px;
+}
